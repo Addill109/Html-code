@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<body>
+<h2>User Registration</h2>
+<form action="" method="post">
+Full Name: <input type="text" name="fullname" placeholder="Your full name"><br><br>
+Age: <input type="number" name="age" placeholder="Your age"><br><br>
+Email: <input type="email" name="email" placeholder="Your email"><br><br>
+Password: <input type="password" name="pwd" placeholder="Create password"><br><br>
+Gender:<br>
+<input type="radio" name="gen" value="male"> Male
+<input type="radio" name="gen" value="female"> Female
+<input type="radio" name="gen" value="other"> Other<br><br>
+Languages Known:<br>
+<input type="checkbox" name="lang" value="hindi"> Hindi
+<input type="checkbox" name="lang" value="english"> English
+<input type="checkbox" name="lang" value="urdu"> Urdu<br><br>
+State:
+<select name="state">
+<option>Jammu & Kashmir</option>
+<option>Delhi</option>
+<option>Punjab</option>
+<option>Maharashtra</option>
+</select><br><br>
+About Yourself:<br>
+<textarea name="about" rows="5" cols="45" placeholder="Tell us about yourself..."></textarea><br><br>
+<input type="submit" value="Register">
+<input type="reset" value="Reset Form">
+</form>
+</body>
+</html>
